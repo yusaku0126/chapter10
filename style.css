@@ -70,3 +70,33 @@ footer {
   background-color: #aaaaaa;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-box {
+    display: block;
+    width: 100%;
+  }
+
+  .main-content {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .main-content2 {
+    width: 90%;
+    margin: 20px 0;
+    margin: 50px auto;
+  }
+
+  .flow1-picture {
+    height: 150px;
+  }
+
+  .flow2-picture {
+    height: 150px;
+  }
+
+  .flow3-picture {
+    height: 150px;
+  }
+}
